@@ -6,9 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/goit-js-hw-11/",
-    "preview": "vite preview"
+    "preview": "vite preview",
+        "predeploy" : "npm run build",
+        "deploy" : "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "glob": "^8.1.0",
     "vite": "^4.5.2"
   },
@@ -19,5 +22,6 @@
     "simplelightbox": "^2.14.3",
     "vite-plugin-full-reload": "^1.0.5",
     "vite-plugin-html-inject": "^1.0.1"
-  }
+  },
+  "homepage": "https://nqzario.github.io/goit-js-hw-11/"
 }
